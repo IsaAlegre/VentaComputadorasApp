@@ -20,6 +20,10 @@ public class Computadora {
         this.teclado = teclado;
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
     @Override
     public String toString() {
         return "Computadora{\n" +

@@ -17,6 +17,18 @@ public class Monitor {
         this.tamanio = tamanio;
     }
 
+    public int getIdMonitor() {
+        return idMonitor;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public void setTamanio(double tamanio) {
+        this.tamanio = tamanio;
+    }
+
     @Override
     public String toString() {
         return "Monitor{" +
