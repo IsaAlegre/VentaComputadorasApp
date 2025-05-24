@@ -1,6 +1,6 @@
 package MundoPC.modelo;
 
-public class Compuradora {
+public class Computadora {
     private int idComputadora;
     private String nombre;
     private Raton raton;
@@ -8,11 +8,11 @@ public class Compuradora {
     private Monitor monitor;
     private static int contadorComputadoras;
 
-    private Compuradora(){
+    private Computadora(){
         idComputadora = ++contadorComputadoras;
     }
 
-    public Compuradora(String nombre, Raton raton, Monitor monitor, Teclado teclado){
+    public Computadora(String nombre, Raton raton, Monitor monitor, Teclado teclado){
         this();
         this.nombre = nombre;
         this.raton = raton;
@@ -22,7 +22,7 @@ public class Compuradora {
 
     @Override
     public String toString() {
-        return "Compuradora{\n" +
+        return "Computadora{\n" +
                 "idComputadora=" + idComputadora +
                 ", nombre='" + nombre + '\'' +
                 ",\n raton=" + raton +

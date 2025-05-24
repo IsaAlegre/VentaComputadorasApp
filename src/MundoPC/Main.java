@@ -1,6 +1,6 @@
 package MundoPC;
 
-import MundoPC.modelo.Compuradora;
+import MundoPC.modelo.Computadora;
 import MundoPC.modelo.Monitor;
 import MundoPC.modelo.Raton;
 import MundoPC.modelo.Teclado;
@@ -18,7 +18,7 @@ public class Main {
         Monitor MonitorDell = new Monitor("Dell", 30);
         System.out.println(MonitorDell);
 
-        Compuradora compuradoraDell = new Compuradora("Dell 7030", RatonDell, MonitorDell, TecladoDell);
+        Computadora compuradoraDell = new Computadora("Dell 7030", RatonDell, MonitorDell, TecladoDell);
         System.out.println(compuradoraDell);
     }
 }
